@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio showcasing web development, design, and creative projects. Expert in modern web technologies and user experience design.">
+    <meta name="keywords" content="web developer, portfolio, UI/UX designer, frontend developer, creative professional">
+    <meta name="author" content="Renalyn Bonilla Inlao">
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="index, follow">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Professional Portfolio - Renalyn Bonilla Inlao">
+    <meta property="og:description" content="Explore my creative portfolio featuring innovative web projects and designs">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://renalyninlao.netlify.app">
+    <meta property="og:image" content="https://renalyninlao.github.io/images/profile.jpg">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Professional Portfolio - Renalyn Bonilla Inlao">
+    <meta name="twitter:description" content="Explore my creative portfolio featuring innovative web projects and designs">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="canonical" href="https://renalyninlao.netlify.app">
+    
+    <title>Renalyn Bonilla Inlao - Creative Portfolio | Web Developer & Designer</title>
+    
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Renalyn Bonilla Inlao",
+        "url": "https://renalyninlao.netlify.app",
+        "jobTitle": "Web Developer & Designer",
+        "description": "BSIT student at Northern Iloilo State University, passionate about web development and technology",
+        "sameAs": [
+            "https://www.facebook.com/inlao.renalyn"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header role="banner">
+        <nav role="navigation" aria-label="Main navigation">
+            <a href="index.html" class="logo" aria-label="Site logo"> </> Renalyn</a>
+            <div class="menu-toggle" aria-label="Toggle menu" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- HOME PAGE -->
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <ul itemscope itemtype="https://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="index.html"><span itemprop="name">Home</span></a>
+                <meta itemprop="position" content="1" />
+            </li>
+        </ul>
+    </nav>
+    
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Renalyn Bonilla Inlao</h1>
+            <p>BSIT Student | Web Developer & Designer | Passionate about Technology & Innovation</p>
+            <a class="cta-button" href="contact.html">Get In Touch</a>
+        </div>
+    </section>
+    
+    <!-- Stats Section -->
+    <div class="container">
+        <section class="stats-section">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">🎓</div>
+                    <div class="stat-number">BSIT</div>
+                    <div class="stat-label">Student</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">💻</div>
+                    <div class="stat-number">4+</div>
+                    <div class="stat-label">Programming Languages</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">🌐</div>
+                    <div class="stat-number">Web</div>
+                    <div class="stat-label">Developer</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">✨</div>
+                    <div class="stat-number">Creative</div>
+                    <div class="stat-label">Designer</div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- About Preview Section -->
+    <div class="container">
+        <section class="about-preview">
+            <div class="about-preview-content">
+                <div class="about-preview-text">
+                    <h2>About Me</h2>
+                    <p>I'm a 21-year-old BSIT student at Northern Iloilo State University, passionate about technology and innovation. I love exploring new ideas, continuously improving my skills, and working on creative projects that allow me to learn and grow.</p>
+                    <p>My goal is to build a successful career in the IT field and contribute to developing solutions that make a positive impact on people and communities.</p>
+                    <a href="about.html" class="cta-button-secondary">Learn More About Me</a>
+                </div>
+                <div class="about-preview-image">
+                    <img src="images/profile.jpg" alt="Renalyn Bonilla Inlao">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Skills Preview Section -->
+    <div class="container">
+        <section>
+            <h2>My Skills</h2>
+            <p class="section-description">Technologies and programming languages I work with</p>
+            <div class="skills-preview-grid">
+                <div class="skill-preview-card">
+                    <div class="skill-preview-icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                </div>
+                <div class="skill-preview-card">
+                    <div class="skill-preview-icon">☕</div>
+                    <h3>Java</h3>
+                    <p>Object-oriented programming</p>
+                </div>
+                <div class="skill-preview-card">
+                    <div class="skill-preview-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Scripting & automation</p>
+                </div>
+                <div class="skill-preview-card">
+                    <div class="skill-preview-icon">⚙️</div>
+                    <h3>C++</h3>
+                    <p>System programming</p>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="skills.html" class="cta-button-secondary">View All Skills</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Featured Projects Section -->
+    <div class="container">
+        <section>
+            <h2>Featured Projects</h2>
+            <p class="section-description">Some of my recent work and creative projects</p>
+            <div class="projects-grid">
+                <div class="project-card" onclick="window.location.href='projects.html'">
+                    <div class="project-image">🌐</div>
+                    <div class="project-content">
+                        <h3>Portfolio Website</h3>
+                        <p>SEO-optimized personal portfolio with modern animations and responsive design</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" onclick="window.location.href='projects.html'">
+                    <div class="project-image">💼</div>
+                    <div class="project-content">
+                        <h3>Web Applications</h3>
+                        <p>Interactive web applications built with modern technologies</p>
+                        <div class="project-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Web Design</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" onclick="window.location.href='projects.html'">
+                    <div class="project-image">🎨</div>
+                    <div class="project-content">
+                        <h3>UI/UX Design</h3>
+                        <p>Beautiful and user-friendly interface designs</p>
+                        <div class="project-tags">
+                            <span class="tag">CSS</span>
+                            <span class="tag">Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="projects.html" class="cta-button-secondary">View All Projects</a>
+            </div>
+        </section>
+    </div>
+
+    <!-- Services Section -->
+    <div class="container">
+        <section class="services-section">
+            <h2>What I Do</h2>
+            <p class="section-description">Services and expertise I offer</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Web Design</h3>
+                    <p>Creating beautiful, modern, and responsive website designs that provide excellent user experiences.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">💻</div>
+                    <h3>Web Development</h3>
+                    <p>Building functional and interactive websites using HTML, CSS, and JavaScript.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">⚡</div>
+                    <h3>Programming</h3>
+                    <p>Developing applications and solutions using Java, Python, and C++.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Problem Solving</h3>
+                    <p>Analyzing challenges and creating innovative technical solutions.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Hobbies Section -->
+    <div class="container">
+        <section class="hobbies-section">
+            <h2>My Hobbies & Interests</h2>
+            <p class="section-description">What I enjoy doing in my free time</p>
+            <div class="hobbies-grid">
+                <div class="hobby-card">
+                    <div class="hobby-icon">🔬</div>
+                    <h3>Exploring Technologies</h3>
+                    <p>Always learning about new tech trends and innovations</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">🎨</div>
+                    <h3>Designing Websites</h3>
+                    <p>Creating beautiful and functional web designs</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">🎵</div>
+                    <h3>Listening to Music</h3>
+                    <p>Enjoying music while working and relaxing</p>
+                </div>
+                <div class="hobby-card">
+                    <div class="hobby-icon">📺</div>
+                    <h3>Tech Videos</h3>
+                    <p>Watching tech-related videos and tutorials</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Let's Work Together!</h2>
+                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="cta-button">Get In Touch</a>
+                    <a href="projects.html" class="cta-button-outline">View My Work</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer role="contentinfo">
+        <div class="social-links" aria-label="Social media links">
+            <a href="https://www.facebook.com/inlao.renalyn" target="_blank" aria-label="Facebook profile">📘</a>
+            <a href="mailto:inlaorenalyn@gmail.com" aria-label="Email contact">✉️</a>
+            <a href="tel:09123081167" aria-label="Phone contact">📞</a>
+        </div>
+        <p>&copy; 2025 Renalyn Bonilla Inlao. All rights reserved. | Built with ❤️ and modern web standards</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
