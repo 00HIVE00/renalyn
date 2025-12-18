@@ -1002,6 +1002,19 @@ footer {
 .about-preview {
     margin: 4rem 0;
     padding: 3rem 0;
+    position: relative;
+}
+
+.about-preview::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -10%;
+    width: 300px;
+    height: 300px;
+    background: radial-gradient(circle, rgba(108, 99, 255, 0.08) 0%, transparent 70%);
+    border-radius: 50%;
+    pointer-events: none;
 }
 
 .about-preview-content {
@@ -1011,23 +1024,52 @@ footer {
     align-items: center;
 }
 
+.about-preview-text {
+    background: rgba(26, 31, 46, 0.6);
+    backdrop-filter: blur(10px);
+    padding: 3rem;
+    border-radius: 24px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: var(--shadow-elegant);
+}
+
 .about-preview-text h2 {
     text-align: left;
-    margin-bottom: 1.5rem;
-    clip-path: none;
-    background: transparent;
-    border: none;
-    padding: 0;
-    color: var(--primary);
-    text-shadow: 0 0 20px rgba(0, 217, 255, 0.5), 2px 2px 4px rgba(0, 0, 0, 0.8);
+    margin-bottom: 2rem;
+    background: var(--gradient-1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 800;
+    font-size: clamp(2rem, 3.5vw, 2.5rem);
+    letter-spacing: -1px;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+
+.about-preview-text h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 4px;
+    background: var(--gradient-1);
+    border-radius: 2px;
 }
 
 .about-preview-text p {
-    margin-bottom: 1rem;
-    color: #E0E0E0;
-    line-height: 1.8;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-    font-size: 1.05rem;
+    margin-bottom: 1.5rem;
+    color: #E8EAED;
+    line-height: 1.9;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.about-preview-text p:last-of-type {
+    margin-bottom: 2rem;
 }
 
 .about-preview-image {
