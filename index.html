@@ -1,91 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Professional portfolio showcasing web development, design, and creative projects. Expert in modern web technologies and user experience design.">
+    <meta name="description"
+        content="Professional portfolio showcasing web development, design, and creative projects. Expert in modern web technologies and user experience design.">
     <meta name="keywords" content="web developer, portfolio, UI/UX designer, frontend developer, creative professional">
     <meta name="author" content="Renalyn Bonilla Inlao">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
-    
+
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Professional Portfolio - Renalyn Bonilla Inlao">
-    <meta property="og:description" content="Explore my creative portfolio featuring innovative web projects and designs">
+    <meta property="og:description"
+        content="Explore my creative portfolio featuring innovative web projects and designs">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://renalyninlao.netlify.app">
     <meta property="og:image" content="https://renalyninlao.github.io/images/profile.jpg">
-    
+
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Professional Portfolio - Renalyn Bonilla Inlao">
-    <meta name="twitter:description" content="Explore my creative portfolio featuring innovative web projects and designs">
+    <meta name="twitter:description"
+        content="Explore my creative portfolio featuring innovative web projects and designs">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="canonical" href="https://renalyninlao.netlify.app/">
-    
+
     <title>Renalyn Bonilla Inlao | Web Developer & Designer</title>
-    
+
     <!-- Google Analytics (replace G-XXXXXXXXXX with your tracking ID) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
         gtag('config', 'G-XXXXXXXXXX');
     </script>
-    
+
     <!-- Mixpanel Analytics (replace YOUR_PROJECT_TOKEN with your token) -->
     <script type="text/javascript">
-        (function(c,a){if(!a.__SV){var b=window;try{var d,m,j,k=b.location,f=k.hash;d=function(a,b){return(m=a.match(RegExp(b+"=([^&]*)")))?m[1]:null};f&&d(f,"state")&&(j=JSON.parse(decodeURIComponent(d(f,"state"))),"mpeditor"===j.action&&(b.sessionStorage.setItem("_mpcehash",f),history.replaceState(j.desiredHash||"",c.title,k.pathname+k.search)))}catch(n){}var l,h;window.mixpanel=a;a._i=[];a.init=function(b,d,g){function c(b,i){var a=i.split(".");2==a.length&&(b=b[a[0]],i=a[1]);b[i]=function(){b.push([i].concat(Array.prototype.slice.call(arguments,0)))}}var e=a;"undefined"!==typeof g?e=a[g]=[]:g="mixpanel";e.people=e.people||[];e.toString=function(b){var a="mixpanel";"mixpanel"!==g&&(a+="."+g);b||(a+=" (stub)");return a};e.people.toString=function(){return e.toString(1)+".people (stub)"};l="disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister opt_out_tracking has_opted_out_tracking opt_in_tracking reset identify name_tag set_config reset_integrations set_once people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" ");for(h=0;h<l.length;h++)c(e,l[h]);var f="set set_once union unset remove increment append".split(" ");e.get_group=function(){function a(c){b[c]=function(){call(c,arguments)}}var b={},c=["set","set_once","union","unset","remove","increment","append"];for(var d=0;d<c.length;d++)a(c[d]);return b};a._i.push([b,d,g])};a.__SV=1.2;b=c.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===c.location.protocol&&"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js";d=c.getElementsByTagName("script")[0];d.parentNode.insertBefore(b,d)}})(document,window.mixpanel||[]);
+        (function (c, a) { if (!a.__SV) { var b = window; try { var d, m, j, k = b.location, f = k.hash; d = function (a, b) { return (m = a.match(RegExp(b + "=([^&]*)"))) ? m[1] : null }; f && d(f, "state") && (j = JSON.parse(decodeURIComponent(d(f, "state"))), "mpeditor" === j.action && (b.sessionStorage.setItem("_mpcehash", f), history.replaceState(j.desiredHash || "", c.title, k.pathname + k.search))) } catch (n) { } var l, h; window.mixpanel = a; a._i = []; a.init = function (b, d, g) { function c(b, i) { var a = i.split("."); 2 == a.length && (b = b[a[0]], i = a[1]); b[i] = function () { b.push([i].concat(Array.prototype.slice.call(arguments, 0))) } } var e = a; "undefined" !== typeof g ? e = a[g] = [] : g = "mixpanel"; e.people = e.people || []; e.toString = function (b) { var a = "mixpanel"; "mixpanel" !== g && (a += "." + g); b || (a += " (stub)"); return a }; e.people.toString = function () { return e.toString(1) + ".people (stub)" }; l = "disable time_event track track_pageview track_links track_forms track_with_groups add_group set_group remove_group register register_once alias unregister opt_out_tracking has_opted_out_tracking opt_in_tracking reset identify name_tag set_config reset_integrations set_once people.set people.set_once people.increment people.append people.union people.track_charge people.clear_charges people.delete_user people.remove".split(" "); for (h = 0; h < l.length; h++)c(e, l[h]); var f = "set set_once union unset remove increment append".split(" "); e.get_group = function () { function a(c) { b[c] = function () { call(c, arguments) } } var b = {}, c = ["set", "set_once", "union", "unset", "remove", "increment", "append"]; for (var d = 0; d < c.length; d++)a(c[d]); return b }; a._i.push([b, d, g]) }; a.__SV = 1.2; b = c.createElement("script"); b.type = "text/javascript"; b.async = !0; b.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === c.location.protocol && "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ? "https://cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js" : "//cdn4.mxpnl.com/libs/mixpanel-2-latest.min.js"; d = c.getElementsByTagName("script")[0]; d.parentNode.insertBefore(b, d) } })(document, window.mixpanel || []);
         mixpanel.init('YOUR_PROJECT_TOKEN');
-        mixpanel.track('Page View', {page: 'Home'});
+        mixpanel.track('Page View', { page: 'Home' });
     </script>
-    
+
     <!-- Keen Analytics (replace with your project ID and write key) -->
     <script>
-        (function(w,d){
-          var id='keen-tracking', ref=d.getElementsByTagName('script')[0];
-          if(d.getElementById(id)){return;}
-          var js=d.createElement('script'); js.id=id; js.async=true;
-          js.src='https://cdn.keen.io/analytics.js';
-          ref.parentNode.insertBefore(js, ref);
+        (function (w, d) {
+            var id = 'keen-tracking', ref = d.getElementsByTagName('script')[0];
+            if (d.getElementById(id)) { return; }
+            var js = d.createElement('script'); js.id = id; js.async = true;
+            js.src = 'https://cdn.keen.io/analytics.js';
+            ref.parentNode.insertBefore(js, ref);
         })(this, document);
-        
+
         var client = new Keen({
-          projectId: 'YOUR_PROJECT_ID',
-          writeKey: 'YOUR_WRITE_KEY'
+            projectId: 'YOUR_PROJECT_ID',
+            writeKey: 'YOUR_WRITE_KEY'
         });
-        
+
         client.recordEvent('pageviews', {
-          page: {
-            title: document.title,
-            url: window.location.href
-          }
+            page: {
+                title: document.title,
+                url: window.location.href
+            }
         });
     </script>
-    
+
     <!-- Kissmetrics Analytics (replace with your API key) -->
     <script type="text/javascript">
         var _kmq = _kmq || [];
         var _kmk = _kmk || 'YOUR_API_KEY';
-        function _kms(u){
-          setTimeout(function(){
-            var d = document, f = d.getElementsByTagName('script')[0],
-            s = d.createElement('script');
-            s.type = 'text/javascript'; s.async = true; s.src = u;
-            f.parentNode.insertBefore(s, f);
-          }, 1);
+        function _kms(u) {
+            setTimeout(function () {
+                var d = document, f = d.getElementsByTagName('script')[0],
+                    s = d.createElement('script');
+                s.type = 'text/javascript'; s.async = true; s.src = u;
+                f.parentNode.insertBefore(s, f);
+            }, 1);
         }
         _kms('https://i.kissmetrics.com/i.js');
         _kms('https://scripts.kissmetrics.com/' + _kmk + '.2.js');
-        
-        _kmq.push(['record', 'Page View', {'Page': 'Home'}]);
+
+        _kmq.push(['record', 'Page View', { 'Page': 'Home' }]);
     </script>
-    
+
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -100,6 +104,7 @@
     }
     </script>
 </head>
+
 <body>
     <!-- Header -->
     <header role="banner">
@@ -120,7 +125,7 @@
             </ul>
         </nav>
     </header>
-    
+
     <!-- HOME PAGE -->
     <nav class="breadcrumbs" aria-label="Breadcrumb">
         <ul itemscope itemtype="https://schema.org/BreadcrumbList">
@@ -130,7 +135,7 @@
             </li>
         </ul>
     </nav>
-    
+
     <section class="hero">
         <div class="hero-content">
             <div class="hero-text">
@@ -143,7 +148,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- About Preview Section (Moved up) -->
     <div class="container">
         <section class="about-preview">
@@ -153,8 +158,14 @@
                 </div>
                 <div class="about-preview-text">
                     <h2>About Me</h2>
-                    <p>I'm a 21-year-old BSIT student at Northern Iloilo State University, passionate about technology and innovation. I love exploring new ideas, continuously improving my skills, and working on creative projects that allow me to learn and grow.</p>
-                    <p>My goal is to build a successful career in the IT field and contribute to developing solutions that make a positive impact on people and communities.</p>
+                    <p>I'm a 21-year-old BSIT student at <a href="https://www.nisu.edu.ph/" target="_blank"
+                            rel="noopener noreferrer"
+                            title="Visit Northern Iloilo State University (NISU) website">Northern Iloilo State
+                            University (NISU)</a>, passionate about
+                        technology and innovation. I love exploring new ideas, continuously improving my skills, and
+                        working on creative projects that allow me to learn and grow.</p>
+                    <p>My goal is to build a successful career in the IT field and contribute to developing solutions
+                        that make a positive impact on people and communities.</p>
                     <a href="about.html" class="cta-button-secondary">Learn More About Me</a>
                 </div>
             </div>
@@ -201,32 +212,40 @@
                         <h3>Portfolio Website</h3>
                         <p>SEO-optimized personal portfolio with modern animations and responsive design</p>
                         <div class="project-tags">
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
-                            <span class="tag">JavaScript</span>
+                            <span class="tag"><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                                    target="_blank" rel="noopener noreferrer"
+                                    title="HTML documentation (MDN)">HTML</a></span>
+                            <span class="tag"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"
+                                    rel="noopener noreferrer" title="CSS documentation (MDN)">CSS</a></span>
+                            <span class="tag"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                                    target="_blank" rel="noopener noreferrer"
+                                    title="JavaScript documentation (MDN)">JavaScript</a></span>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="project-card" onclick="window.location.href='projects.html'">
                     <div class="project-image">💼</div>
                     <div class="project-content">
                         <h3>Web Applications</h3>
                         <p>Interactive web applications built with modern technologies</p>
                         <div class="project-tags">
-                            <span class="tag">JavaScript</span>
+                            <span class="tag"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                                    target="_blank" rel="noopener noreferrer"
+                                    title="JavaScript documentation (MDN)">JavaScript</a></span>
                             <span class="tag">Web Design</span>
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="project-card" onclick="window.location.href='projects.html'">
                     <div class="project-image">🎨</div>
                     <div class="project-content">
                         <h3>UI/UX Design</h3>
                         <p>Beautiful and user-friendly interface designs</p>
                         <div class="project-tags">
-                            <span class="tag">CSS</span>
+                            <span class="tag"><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"
+                                    rel="noopener noreferrer" title="CSS documentation (MDN)">CSS</a></span>
                             <span class="tag">Design</span>
                         </div>
                     </div>
@@ -247,21 +266,32 @@
                 <div class="skill-preview-card">
                     <div class="skill-preview-icon">🌐</div>
                     <h3>Web Development</h3>
-                    <p>HTML, CSS, JavaScript</p>
+                    <p>
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"
+                            rel="noopener noreferrer" title="HTML documentation (MDN)">HTML</a>,
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"
+                            rel="noopener noreferrer" title="CSS documentation (MDN)">CSS</a>,
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
+                            rel="noopener noreferrer" title="JavaScript documentation (MDN)">JavaScript</a>
+                    </p>
                 </div>
                 <div class="skill-preview-card">
                     <div class="skill-preview-icon">☕</div>
-                    <h3>Java</h3>
+                    <h3><a href="https://docs.oracle.com/en/java/" target="_blank" rel="noopener noreferrer"
+                            title="Official Java documentation (Oracle)">Java</a>
+                    </h3>
                     <p>Object-oriented programming</p>
                 </div>
                 <div class="skill-preview-card">
                     <div class="skill-preview-icon">🐍</div>
-                    <h3>Python</h3>
+                    <h3><a href="https://www.python.org/doc/" target="_blank" rel="noopener noreferrer"
+                            title="Official Python documentation">Python</a></h3>
                     <p>Scripting & automation</p>
                 </div>
                 <div class="skill-preview-card">
                     <div class="skill-preview-icon">⚙️</div>
-                    <h3>C++</h3>
+                    <h3><a href="https://en.cppreference.com/w/" target="_blank" rel="noopener noreferrer"
+                            title="C++ reference (cppreference.com)">C++</a></h3>
                     <p>System programming</p>
                 </div>
             </div>
@@ -280,17 +310,32 @@
                 <div class="service-card">
                     <div class="service-icon">🎨</div>
                     <h3>Web Design</h3>
-                    <p>Creating beautiful, modern, and responsive website designs that provide excellent user experiences.</p>
+                    <p>Creating beautiful, modern, and responsive website designs that provide excellent user
+                        experiences.</p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">💻</div>
                     <h3>Web Development</h3>
-                    <p>Building functional and interactive websites using HTML, CSS, and JavaScript.</p>
+                    <p>Building functional and interactive websites using
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"
+                            rel="noopener noreferrer" title="HTML documentation (MDN)">HTML</a>,
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank"
+                            rel="noopener noreferrer" title="CSS documentation (MDN)">CSS</a>, and
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
+                            rel="noopener noreferrer" title="JavaScript documentation (MDN)">JavaScript</a>.
+                    </p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">⚡</div>
                     <h3>Programming</h3>
-                    <p>Developing applications and solutions using Java, Python, and C++.</p>
+                    <p>Developing applications and solutions using
+                        <a href="https://docs.oracle.com/en/java/" target="_blank" rel="noopener noreferrer"
+                            title="Official Java documentation (Oracle)">Java</a>,
+                        <a href="https://www.python.org/doc/" target="_blank" rel="noopener noreferrer"
+                            title="Official Python documentation">Python</a>, and
+                        <a href="https://en.cppreference.com/w/" target="_blank" rel="noopener noreferrer"
+                            title="C++ reference (cppreference.com)">C++</a>.
+                    </p>
                 </div>
                 <div class="service-card">
                     <div class="service-icon">🔧</div>
@@ -336,7 +381,8 @@
         <div class="container">
             <div class="cta-content">
                 <h2>Let's Work Together!</h2>
-                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your
+                    visions.</p>
                 <div class="cta-buttons">
                     <a href="contact.html" class="cta-button">Get In Touch</a>
                     <a href="projects.html" class="cta-button-outline">View My Work</a>
@@ -344,7 +390,7 @@
             </div>
         </div>
     </section>
-    
+
     <!-- Footer -->
     <footer role="contentinfo">
         <div class="social-links" aria-label="Social media links">
@@ -354,7 +400,8 @@
         </div>
         <p>&copy; 2025 Renalyn Bonilla Inlao. All rights reserved. | Built with ❤️ and modern web standards</p>
     </footer>
-    
+
     <script src="script.js"></script>
 </body>
+
 </html>
